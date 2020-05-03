@@ -1,0 +1,16 @@
+<stream name="3">
+<start x="62" y="36" />
+<end x="80" y="36" />
+<labelCenter x="71" y="36" />
+<boundingBox bottom="36" left="62" right="80" top="36" />
+<routePoint x="62" y="36" />
+<routePoint x="80" y="36" />
+<startLocationOnUnit>14;22</startLocationOnUnit>
+<type>material</type>
+<materialType>default</materialType>
+<phase name="Overall">
+  <moleFraction>N/A;N/A;N/A</moleFraction>
+  <massFraction>N/A;N/A;N/A</massFraction>
+</phase>
+<labelLocation>50</labelLocation>
+</stream>

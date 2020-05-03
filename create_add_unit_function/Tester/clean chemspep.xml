@@ -1,12 +1,13 @@
 <Flowsheet>
   <lastSavedBy>meatrobot</lastSavedBy>
-  <lastSavedAt>2020-4-21T12:24:01.090</lastSavedAt>
+  <lastSavedAt>2020-4-22T10:23:34.410</lastSavedAt>
   <massTolerance>0.001</massTolerance>
   <solveTolerance>1e-05</solveTolerance>
-  <verboseLevel>Verbose</verboseLevel>
+  <verboseLevel>Normal</verboseLevel>
   <maxIterations>100</maxIterations>
   <moleBasis>true</moleBasis>
-  <nextStreamID>2</nextStreamID>
+  <nextStreamID>4</nextStreamID>
+  <nextUnitID>2</nextUnitID>
   <print>
     <margin bottom="0.01905" left="0.01905" right="0.01905" top="0.01905" />
     <zoom>1</zoom>
@@ -24,8 +25,9 @@
   <newtonType>Full</newtonType>
   <unitSortMethod>Connectivity</unitSortMethod>
   <streamSortMethod>Connectivity</streamSortMethod>
-  <previewEnhMetaFile>AQAAALQAAAC7AAAA7QAAAKcBAAAGAQAAFg0AAKEQAACbHQAAYhIAACBFTUYAAAEA3AQAACoAAAAEAAAAIwAAAGwAAAAAAAAAgAcAADgEAABYAQAAwgAAAAAAAAAAAAAAAAAAAMA/BQDQ9QIAQwBPAEYARQA6AEYAbABvAHcAcwBoAGUAZQB0ADEAAACVzv5qAA4AgBQAH1DgT9Ag6jppEKLYCAArMDCdGQAvRTpcAAAAAAAAJgAAABwAAAABAAAAAAAAAAQAAAAAAAAA////ACUAAAAMAAAAAQAAABsAAAAQAAAAvgAAAPoAAAA2AAAAEAAAAKQBAAD6AAAAJQAAAAwAAAAHAACAKAAAAAwAAAABAAAAUgAAAHABAAABAAAAFgAAAAAAAAAAAAAAAAAAAJABAAAAAAABAAAAAEEAcgBpAGEAbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAPTgTwAA8HF3LOh/d/gUUAmexugWDwAAAHHGQV404U8AU+9xd/gUUAm4mYAL0OFPAAgAAAC7TwAAAAAAAAAAAAAPAAAAAAABBA8ABwAAAA4A+BRQCQgAAAAPAAcA0OFPAMyZgAvI4U8ANbFxdxUAAAAIAAAAAAAAAAAAWwDw4U8AcAAAAIGycXcQLnMLEQAAABBDDgAIIAAA0AcOAGQAAAAAAAAAIAAAAA0ABwAg4k8A7Jl6CxjiTwAAAHF3RgAAACAAAAB6GSFoAABbACRnXAAAAFsAfAMOAAAgAAAUQw4AAAAUAIgAAAAwCA4AZAAAADAIDgCIAAAAZHYACAAAAAAlAAAADAAAAAEAAAAmAAAAHAAAAAIAAAAAAAAAAQAAAAAAAAD///8AJQAAAAwAAAACAAAAJwAAABgAAAADAAAAAAAAAAAAAAAAAAAAJQAAAAwAAAADAAAAKwAAABgAAAAkAQAA7QAAADQBAAAGAQAAJQAAAAwAAAAHAACAKAAAAAwAAAACAAAAJQAAAAwAAAAAAACAKAAAAAwAAAADAAAAJgAAABwAAAADAAAAAAAAAAIAAAAAAAAAAAAAACUAAAAMAAAAAwAAABsAAAAQAAAAvgAAAPoAAAA2AAAAEAAAAKQBAAD6AAAAJQAAAAwAAAAHAACAKAAAAAwAAAADAAAAJQAAAAwAAAAIAACAJwAAABgAAAADAAAAAAAAAAAAAAAAAAAAJQAAAAwAAAADAAAAVgAAACgAAACcAQAA9QAAAKYBAAD/AAAAAwAAAKYB+gCcAfUAnAH/ACUAAAAMAAAABwAAgCUAAAAMAAAAAAAAgCgAAAAMAAAAAwAAABgAAAAMAAAA////ABIAAAAMAAAAAQAAABYAAAAMAAAAAQAAABIAAAAMAAAAAQAAABsAAAAQAAAAAAAAAAAAAAAWAAAADAAAAAAAAABUAAAAVAAAACcBAADvAAAAMQEAAAQBAAABAAAAVVWPQSa0j0EnAQAA7wAAAAEAAABMAAAAAAAAAAAAAAAAAAAA//////////9QAAAAMQAAAAsAAAAbAAAAEAAAAKQBAAD6AAAAFgAAAAwAAAAAAAAAJQAAAAwAAAANAACADgAAABQAAAAAAAAAEAAAABQAAAA=</previewEnhMetaFile>
+  <previewEnhMetaFile>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</previewEnhMetaFile>
   <log maximum="1000">
+    <line>Restoring flowsheet from file</line>
     <line>added stream type default</line>
     <line>initializing document</line>
     <line>added property idealGasEnthalpy</line>
@@ -122,8 +124,9 @@
     <line>added property dewPointTemperature</line>
     <line>added property dewPointPressure</line>
     <line>inserted stream 1</line>
+    <line>Loaded blank_flowsheet.fsd</line>
   </log>
-  <boundingBox bottom="35" left="9" right="52" top="15" />
+  <boundingBox bottom="48" left="9" right="90" top="3" />
   <report>
     <lineLength>120</lineLength>
     <digits>6</digits>
@@ -937,6 +940,27 @@
     </dimension>
   </baseDimensions>
   <propertyDimensions>
+    <dimension name="idealgasenthalpy">
+      <dimension>
+        <quantity name="Energy">1</quantity>
+        <quantity name="Amount">-1</quantity>
+      </dimension>
+      <massBasis />
+      <select dimension="Energy">J</select>
+      <select dimension="Amount">mol</select>
+    </dimension>
+    <dimension name="idealgasenthalpy.dtemperature">
+      <dimension>
+        <quantity name="Energy">1</quantity>
+        <quantity name="Amount">-1</quantity>
+        <quantity name="Temperature">-1</quantity>
+      </dimension>
+      <massBasis />
+      <select dimension="Energy">J</select>
+      <select dimension="Amount">mol</select>
+      <select dimension="Temperature">K</select>
+    </dimension>
+    <dimension name="compressibilityfactor" />
     <dimension name="density.dpressure">
       <dimension>
         <quantity name="Pressure">-1</quantity>
@@ -954,26 +978,13 @@
       </dimension>
       <select dimension="Temperature">K</select>
     </dimension>
-    <dimension name="compressibilityfactor" />
-    <dimension name="idealgasenthalpy.dtemperature">
+    <dimension name="vaporpressure.dtemperature">
       <dimension>
-        <quantity name="Energy">1</quantity>
-        <quantity name="Amount">-1</quantity>
+        <quantity name="Pressure">1</quantity>
         <quantity name="Temperature">-1</quantity>
       </dimension>
-      <massBasis />
-      <select dimension="Energy">J</select>
-      <select dimension="Amount">mol</select>
+      <select dimension="Pressure">Pa</select>
       <select dimension="Temperature">K</select>
-    </dimension>
-    <dimension name="idealgasenthalpy">
-      <dimension>
-        <quantity name="Energy">1</quantity>
-        <quantity name="Amount">-1</quantity>
-      </dimension>
-      <massBasis />
-      <select dimension="Energy">J</select>
-      <select dimension="Amount">mol</select>
     </dimension>
     <dimension name="entropy">
       <dimension>
@@ -988,14 +999,6 @@
       <select dimension="Temperature">K</select>
     </dimension>
     <dimension name="compressibilityfactor.dmolfraction" />
-    <dimension name="vaporpressure.dtemperature">
-      <dimension>
-        <quantity name="Pressure">1</quantity>
-        <quantity name="Temperature">-1</quantity>
-      </dimension>
-      <select dimension="Pressure">Pa</select>
-      <select dimension="Temperature">K</select>
-    </dimension>
     <dimension name="compressibilityfactor.dmoles">
       <postfix> / mol</postfix>
     </dimension>
@@ -1033,7 +1036,6 @@
       <select dimension="Amount">mol</select>
       <select dimension="Distance">m</select>
     </dimension>
-    <dimension name="molecularweight" />
     <dimension name="density.dtemperature">
       <dimension>
         <quantity name="Amount">1</quantity>
@@ -1045,12 +1047,7 @@
       <select dimension="Distance">m</select>
       <select dimension="Temperature">K</select>
     </dimension>
-    <dimension name="logfugacitycoefficient.dpressure">
-      <dimension>
-        <quantity name="Pressure">-1</quantity>
-      </dimension>
-      <select dimension="Pressure">Pa</select>
-    </dimension>
+    <dimension name="molecularweight" />
     <dimension name="energy">
       <dimension>
         <quantity name="Energy">1</quantity>
@@ -1061,16 +1058,32 @@
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
     </dimension>
-    <dimension name="heatcapacity.dtemperature">
+    <dimension name="logfugacitycoefficient.dpressure">
+      <dimension>
+        <quantity name="Pressure">-1</quantity>
+      </dimension>
+      <select dimension="Pressure">Pa</select>
+    </dimension>
+    <dimension name="energy.dmoles">
       <dimension>
         <quantity name="Energy">1</quantity>
         <quantity name="Amount">-1</quantity>
-        <quantity name="Temperature">-2</quantity>
       </dimension>
+      <flags>OnlyMole</flags>
       <massBasis />
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
-      <select dimension="Temperature">K</select>
+    </dimension>
+    <dimension name="enthalpy.dpressure">
+      <dimension>
+        <quantity name="Pressure">-1</quantity>
+        <quantity name="Energy">1</quantity>
+        <quantity name="Amount">-1</quantity>
+      </dimension>
+      <massBasis />
+      <select dimension="Energy">J</select>
+      <select dimension="Pressure">Pa</select>
+      <select dimension="Amount">mol</select>
     </dimension>
     <dimension name="entropyf.dpressure">
       <dimension>
@@ -1085,26 +1098,16 @@
       <select dimension="Amount">mol</select>
       <select dimension="Temperature">K</select>
     </dimension>
-    <dimension name="enthalpy.dpressure">
-      <dimension>
-        <quantity name="Pressure">-1</quantity>
-        <quantity name="Energy">1</quantity>
-        <quantity name="Amount">-1</quantity>
-      </dimension>
-      <massBasis />
-      <select dimension="Energy">J</select>
-      <select dimension="Pressure">Pa</select>
-      <select dimension="Amount">mol</select>
-    </dimension>
-    <dimension name="energy.dmoles">
+    <dimension name="heatcapacity.dtemperature">
       <dimension>
         <quantity name="Energy">1</quantity>
         <quantity name="Amount">-1</quantity>
+        <quantity name="Temperature">-2</quantity>
       </dimension>
-      <flags>OnlyMole</flags>
       <massBasis />
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
+      <select dimension="Temperature">K</select>
     </dimension>
     <dimension name="energy.dmolfraction">
       <dimension>
@@ -1115,13 +1118,13 @@
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
     </dimension>
-    <dimension name="gibbsfreeenergy">
+    <dimension name="enthalpyf.dmoles">
       <dimension>
         <quantity name="Energy">1</quantity>
         <quantity name="Amount">-1</quantity>
       </dimension>
+      <flags>OnlyMole</flags>
       <massBasis />
-      <canHaveTotal />
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
     </dimension>
@@ -1137,13 +1140,13 @@
       <select dimension="Amount">mol</select>
     </dimension>
     <dimension name="fugacitycoefficient.dmolfraction" />
-    <dimension name="enthalpyf.dmoles">
+    <dimension name="gibbsfreeenergy">
       <dimension>
         <quantity name="Energy">1</quantity>
         <quantity name="Amount">-1</quantity>
       </dimension>
-      <flags>OnlyMole</flags>
       <massBasis />
+      <canHaveTotal />
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
     </dimension>
@@ -1154,18 +1157,6 @@
         <quantity name="Temperature">-1</quantity>
       </dimension>
       <massBasis />
-      <select dimension="Energy">J</select>
-      <select dimension="Amount">mol</select>
-      <select dimension="Temperature">K</select>
-    </dimension>
-    <dimension name="entropyf">
-      <dimension>
-        <quantity name="Energy">1</quantity>
-        <quantity name="Amount">-1</quantity>
-        <quantity name="Temperature">-1</quantity>
-      </dimension>
-      <massBasis />
-      <canHaveTotal />
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
       <select dimension="Temperature">K</select>
@@ -1189,15 +1180,14 @@
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
     </dimension>
-    <dimension name="fugacity.dpressure" />
-    <dimension name="entropyf.dmoles">
+    <dimension name="entropyf">
       <dimension>
         <quantity name="Energy">1</quantity>
         <quantity name="Amount">-1</quantity>
         <quantity name="Temperature">-1</quantity>
       </dimension>
-      <flags>OnlyMole</flags>
       <massBasis />
+      <canHaveTotal />
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
       <select dimension="Temperature">K</select>
@@ -1212,7 +1202,28 @@
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
     </dimension>
-    <dimension name="fugacitycoefficient" />
+    <dimension name="entropyf.dmoles">
+      <dimension>
+        <quantity name="Energy">1</quantity>
+        <quantity name="Amount">-1</quantity>
+        <quantity name="Temperature">-1</quantity>
+      </dimension>
+      <flags>OnlyMole</flags>
+      <massBasis />
+      <select dimension="Energy">J</select>
+      <select dimension="Amount">mol</select>
+      <select dimension="Temperature">K</select>
+    </dimension>
+    <dimension name="fugacity.dpressure" />
+    <dimension name="enthalpy.dmolfraction">
+      <dimension>
+        <quantity name="Energy">1</quantity>
+        <quantity name="Amount">-1</quantity>
+      </dimension>
+      <massBasis />
+      <select dimension="Energy">J</select>
+      <select dimension="Amount">mol</select>
+    </dimension>
     <dimension name="entropyf.dmolfraction">
       <dimension>
         <quantity name="Energy">1</quantity>
@@ -1224,14 +1235,17 @@
       <select dimension="Amount">mol</select>
       <select dimension="Temperature">K</select>
     </dimension>
-    <dimension name="enthalpy.dmolfraction">
+    <dimension name="fugacitycoefficient" />
+    <dimension name="enthalpy.dtemperature">
       <dimension>
         <quantity name="Energy">1</quantity>
         <quantity name="Amount">-1</quantity>
+        <quantity name="Temperature">-1</quantity>
       </dimension>
       <massBasis />
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
+      <select dimension="Temperature">K</select>
     </dimension>
     <dimension name="entropyf.dtemperature">
       <dimension>
@@ -1244,19 +1258,15 @@
       <select dimension="Amount">mol</select>
       <select dimension="Temperature">K</select>
     </dimension>
-    <dimension name="enthalpy.dtemperature">
+    <dimension name="enthalpyf">
       <dimension>
         <quantity name="Energy">1</quantity>
         <quantity name="Amount">-1</quantity>
-        <quantity name="Temperature">-1</quantity>
       </dimension>
       <massBasis />
+      <canHaveTotal />
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
-      <select dimension="Temperature">K</select>
-    </dimension>
-    <dimension name="fugacitycoefficient.dmoles">
-      <postfix> / mol</postfix>
     </dimension>
     <dimension name="volume.dpressure">
       <dimension>
@@ -1280,13 +1290,15 @@
       <select dimension="Amount">mol</select>
       <select dimension="Temperature">K</select>
     </dimension>
-    <dimension name="enthalpyf">
+    <dimension name="fugacitycoefficient.dmoles">
+      <postfix> / mol</postfix>
+    </dimension>
+    <dimension name="enthalpyf.dmolfraction">
       <dimension>
         <quantity name="Energy">1</quantity>
         <quantity name="Amount">-1</quantity>
       </dimension>
       <massBasis />
-      <canHaveTotal />
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
     </dimension>
@@ -1296,15 +1308,6 @@
         <quantity name="Amount">-1</quantity>
       </dimension>
       <flags>OnlyMole</flags>
-      <massBasis />
-      <select dimension="Energy">J</select>
-      <select dimension="Amount">mol</select>
-    </dimension>
-    <dimension name="enthalpyf.dmolfraction">
-      <dimension>
-        <quantity name="Energy">1</quantity>
-        <quantity name="Amount">-1</quantity>
-      </dimension>
       <massBasis />
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
@@ -1332,9 +1335,6 @@
       <select dimension="Amount">mol</select>
       <select dimension="Temperature">K</select>
     </dimension>
-    <dimension name="logfugacitycoefficient.dmoles">
-      <postfix> / mol</postfix>
-    </dimension>
     <dimension name="entropy.dmolfraction">
       <dimension>
         <quantity name="Energy">1</quantity>
@@ -1346,16 +1346,8 @@
       <select dimension="Amount">mol</select>
       <select dimension="Temperature">K</select>
     </dimension>
-    <dimension name="heatcapacity">
-      <dimension>
-        <quantity name="Energy">1</quantity>
-        <quantity name="Amount">-1</quantity>
-        <quantity name="Temperature">-1</quantity>
-      </dimension>
-      <massBasis />
-      <select dimension="Energy">J</select>
-      <select dimension="Amount">mol</select>
-      <select dimension="Temperature">K</select>
+    <dimension name="logfugacitycoefficient.dmoles">
+      <postfix> / mol</postfix>
     </dimension>
     <dimension name="entropy.dpressure">
       <dimension>
@@ -1367,6 +1359,17 @@
       <massBasis />
       <select dimension="Energy">J</select>
       <select dimension="Pressure">Pa</select>
+      <select dimension="Amount">mol</select>
+      <select dimension="Temperature">K</select>
+    </dimension>
+    <dimension name="heatcapacity">
+      <dimension>
+        <quantity name="Energy">1</quantity>
+        <quantity name="Amount">-1</quantity>
+        <quantity name="Temperature">-1</quantity>
+      </dimension>
+      <massBasis />
+      <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
       <select dimension="Temperature">K</select>
     </dimension>
@@ -1388,12 +1391,6 @@
       <postfix> / mol</postfix>
       <select dimension="Pressure">Pa</select>
     </dimension>
-    <dimension name="fugacitycoefficient.dpressure">
-      <dimension>
-        <quantity name="Pressure">-1</quantity>
-      </dimension>
-      <select dimension="Pressure">Pa</select>
-    </dimension>
     <dimension name="fugacity.dtemperature">
       <dimension>
         <quantity name="Pressure">1</quantity>
@@ -1402,13 +1399,13 @@
       <select dimension="Pressure">Pa</select>
       <select dimension="Temperature">K</select>
     </dimension>
-    <dimension name="fugacitycoefficient.dtemperature">
+    <dimension name="fugacitycoefficient.dpressure">
       <dimension>
-        <quantity name="Temperature">-1</quantity>
+        <quantity name="Pressure">-1</quantity>
       </dimension>
-      <select dimension="Temperature">K</select>
+      <select dimension="Pressure">Pa</select>
     </dimension>
-    <dimension name="logfugacitycoefficient.dtemperature">
+    <dimension name="fugacitycoefficient.dtemperature">
       <dimension>
         <quantity name="Temperature">-1</quantity>
       </dimension>
@@ -1423,15 +1420,10 @@
       <select dimension="Energy">J</select>
       <select dimension="Amount">mol</select>
     </dimension>
-    <dimension name="heatcapacity.dmolfraction">
+    <dimension name="logfugacitycoefficient.dtemperature">
       <dimension>
-        <quantity name="Energy">1</quantity>
-        <quantity name="Amount">-1</quantity>
         <quantity name="Temperature">-1</quantity>
       </dimension>
-      <massBasis />
-      <select dimension="Energy">J</select>
-      <select dimension="Amount">mol</select>
       <select dimension="Temperature">K</select>
     </dimension>
     <dimension name="gibbsfreeenergy.dpressure">
@@ -1444,6 +1436,17 @@
       <select dimension="Energy">J</select>
       <select dimension="Pressure">Pa</select>
       <select dimension="Amount">mol</select>
+    </dimension>
+    <dimension name="heatcapacity.dmolfraction">
+      <dimension>
+        <quantity name="Energy">1</quantity>
+        <quantity name="Amount">-1</quantity>
+        <quantity name="Temperature">-1</quantity>
+      </dimension>
+      <massBasis />
+      <select dimension="Energy">J</select>
+      <select dimension="Amount">mol</select>
+      <select dimension="Temperature">K</select>
     </dimension>
     <dimension name="gibbsfreeenergy.dtemperature">
       <dimension>
@@ -1670,7 +1673,57 @@
       <select dimension="Temperature">K</select>
     </dimension>
   </propertyDimensions>
-  <parameterDimensions />
+  <parameterDimensions>
+    <set id="totalmassbalanceproperties">
+      <dimension parameter="fraction">
+        <dimension>
+          <quantity name="Fraction">1</quantity>
+        </dimension>
+        <origDimension />
+        <select dimension="Fraction">%</select>
+      </dimension>
+      <dimension parameter="totalflowmass">
+        <dimension>
+          <quantity name="Time">-1</quantity>
+          <quantity name="Mass">1</quantity>
+        </dimension>
+        <flags>OnlyMole</flags>
+        <select dimension="Mass">kg</select>
+        <select dimension="Time">s</select>
+      </dimension>
+    </set>
+    <set id="{71f5ac07-65a1-4357-8f1b-a8cd58148763}">
+      <dimension parameter="perturbationcomposition">
+        <dimension>
+          <quantity name="Fraction">1</quantity>
+        </dimension>
+        <origDimension />
+        <flags>OnlyMole</flags>
+        <select dimension="Fraction" />
+      </dimension>
+      <dimension parameter="relativeperturbationtemperature">
+        <dimension>
+          <quantity name="Temperature">1</quantity>
+        </dimension>
+        <flags>OnlyMole|NoOffset</flags>
+        <select dimension="Temperature">K</select>
+      </dimension>
+      <dimension parameter="relativeperturbationpressure">
+        <dimension>
+          <quantity name="Pressure">1</quantity>
+        </dimension>
+        <flags>OnlyMole|NoOffset</flags>
+        <select dimension="Pressure">Pa</select>
+      </dimension>
+      <dimension parameter="allowed temperature difference">
+        <dimension>
+          <quantity name="Temperature">1</quantity>
+        </dimension>
+        <flags>OnlyMole|NoOffset</flags>
+        <select dimension="Temperature">K</select>
+      </dimension>
+    </set>
+  </parameterDimensions>
   <unitSet>
     <defaultUnit dimension="Pressure">Pa</defaultUnit>
     <defaultUnit dimension="Force">N</defaultUnit>
@@ -1847,67 +1900,43 @@
     <specifiedMassFlow>62.755182266235359</specifiedMassFlow>
     <labelLocation>50</labelLocation>
   </stream>
-  <font type="default">
-    <height>22</height>
-    <width>0</width>
-    <escapement>0</escapement>
-    <orientation>0</orientation>
-    <weight>400</weight>
-    <italic>false</italic>
-    <underline>false</underline>
-    <strikeOut>false</strikeOut>
-    <lfCharSet>1</lfCharSet>
-    <lfOutPrecision>0</lfOutPrecision>
-    <lfClipPrecision>0</lfClipPrecision>
-    <lfQuality>0</lfQuality>
-    <lfPitchAndFamily>0</lfPitchAndFamily>
-    <name>Arial</name>
-  </font>
-  <object type="Flowsheet" />
-  <view type="flowsheet">
-    <splitHeight>117</splitHeight>
-    <position bottom="560" left="0" right="1269" top="0" />
-    <grid>true</grid>
-    <zoom>8</zoom>
-    <viewPortOffset>-1;-1</viewPortOffset>
-    <streamLabels>true</streamLabels>
-    <unitOperationLabels>true</unitOperationLabels>
-    <logViewTab>0</logViewTab>
-  </view>
-<stream name="211">
-		<start x="78" y="14.0" />
-		<end x="108" y="0.0" />
-		<labelCenter x="93" y="14.0" />
-		<boundingBox bottom="0.0" left="78" right="108" top="14.0" />
-		<routePoint x="78" y="14.0" />
-		<routePoint x="93" y="14.0" />
-		<routePoint x="93" y="0.0" />
-		<routePoint x="108" y="0.0" />
-		<type>material</type>
-		<materialType>default</materialType>
-		<phase name="Overall">
-		  <moleFraction>N/A;N/A;N/A</moleFraction>
-		  <massFraction>N/A;N/A;N/A</massFraction>
-		</phase>
-		</stream><stream name="212">
-			<start x="78" y="40.0" />
-			<end x="108" y="54.0" />
-			<labelCenter x="93" y="54.0" />
-			<boundingBox bottom="40.0" left="78" right="108" top="54.0" />
-			<routePoint x="78" y="40.0" />
-			<routePoint x="93" y="40.0" />\
-			<routePoint x="93" y="54.0" />
-			<routePoint x="108" y="54.0" />
-			<type>material</type>
-			<materialType>default</materialType>
-			<phase name="Overall">
-			  <moleFraction>N/A;N/A;N/A</moleFraction>
-			  <massFraction>N/A;N/A;N/A</massFraction>
-			</phase>
-			</stream><unitOperation CLSID="ChemSepUO.ChemSep_UnitOperation.1" name="Column_1" type="COM:1.0">
-<description>ChemSep Unit Operation</description>
-<properties>
-<value name="sepFile" type="str">[ChemSep]
+  <stream name="2">
+    <start x="62" y="16" />
+    <end x="77" y="13" />
+    <labelCenter x="71" y="16" />
+    <boundingBox bottom="16" left="62" right="77" top="13" />
+    <routePoint x="62" y="16" />
+    <routePoint x="77" y="16" />
+    <routePoint x="77" y="13" />
+    <startLocationOnUnit>14;2</startLocationOnUnit>
+    <type>material</type>
+    <materialType>default</materialType>
+    <phase name="Overall">
+      <moleFraction>N/A;N/A;N/A</moleFraction>
+      <massFraction>N/A;N/A;N/A</massFraction>
+    </phase>
+    <labelLocation>50</labelLocation>
+  </stream>
+  <stream name="3">
+    <start x="62" y="36" />
+    <end x="80" y="36" />
+    <labelCenter x="71" y="36" />
+    <boundingBox bottom="36" left="62" right="80" top="36" />
+    <routePoint x="62" y="36" />
+    <routePoint x="80" y="36" />
+    <startLocationOnUnit>14;22</startLocationOnUnit>
+    <type>material</type>
+    <materialType>default</materialType>
+    <phase name="Overall">
+      <moleFraction>N/A;N/A;N/A</moleFraction>
+      <massFraction>N/A;N/A;N/A</massFraction>
+    </phase>
+    <labelLocation>50</labelLocation>
+  </stream>
+  <unitOperation CLSID="ChemSepUO.ChemSep_UnitOperation.1" name="Column_1" type="COM:1.0">
+    <description>ChemSep Unit Operation</description>
+    <properties>
+      <value name="sepFile" type="str">[ChemSep]
 Version=8.20
 Compiled=2020-4-6 01:55 717b5cb3d168
 Name=C:\Users\MEATRO~1\AppData\Local\Temp\CS_3_1~2.sep
@@ -1956,13 +1985,6 @@ Diffusivity=m2/s
 Interaction parameter=J/mol
 Time=s
 
-[Cape-Open-Variables]
-3
-TACo=TACo=do=kg0 m0 s0 K0 kmol0 rad0 A0 =Total Annual Cost=output=TAC=
-QCo=QCo=do=kg1 m2 s-3 K0 kmol0 rad0 A0 =Condenser duty=output=QC=J/s
-QRo=QRo=do=kg1 m2 s-3 K0 kmol0 rad0 A0 =Reboiler duty=output=QR=J/s
-
-
 [Components]
 3 Number of Components
 14 1921 Library Offset, Index DT=2020-04-03,20:56:46 CHK=271822342 CAS=7732-18-5 CID=Water
@@ -1975,13 +1997,12 @@ Lib=c:\program files\chemsepl8v20\pcd\chemsep1.pcd
 Name=Toluene
 Lib=c:\program files\chemsepl8v20\pcd\chemsep1.pcd
 
-
 [Operation]
 2 Operation Column
 1 Operation kind Simple Distillation
 1 Condenser Total (Liquid product)
 1 Reboiler Partial (Liquid product)
-20 Stages
+30 Stages
 1 Feed stages
 0 Sidestream stages
 F=10
@@ -2060,7 +2081,7 @@ Bottom
 0 Number
 0 Column duty Qcolumn
 2 First stage
-19 Last stage
+29 Last stage
 0 Qcolumn lost to surroundings
 
 [Efficiencies]
@@ -2069,8 +2090,8 @@ Bottom
 
 [Pressures]
 1 Column pressure Constant pressure
-101325.0 Condenser pressure
-101325.0 Top pressure
+202650 Condenser pressure
+202650 Top pressure
 * Pressure Drop
 * Bottom pressure
 
@@ -2079,12 +2100,12 @@ Bottom
 *  Feed state *
 10 Stage Feed1{split}
 348.15 Temperature
-101325.0 Pressure
-0.42987832470870274 Vapour fraction
+101325 Pressure
+0.429878 Vapour fraction
 3 componentflows
-0.3333333333333333 Component 1 flow
-0.3333333333333333 Component 2 flow
-0.33333333333333337 Component 3 flow
+0.333333 Component 1 flow
+0.333333 Component 2 flow
+0.333333 Component 3 flow
 
 [Condenser]
 1 Spec Reflux ratio
@@ -2113,7 +2134,7 @@ Bottom
 1 Flux Step limit
 0.000001 Accuracy
 30 Maximum iterations
-1 Iteration count &amp; function vector
+1 Iteration count &amp;amp; function vector
 0 T/V/L profiles
 0 X/Y profiles
 0 Variable and function vectors
@@ -2150,92 +2171,121 @@ User program=
 
 
 [End of Input]
-			
+
 </value>
-	  <value name="parameters" type="str[]">
-		<el>GUIArguments</el>
-		<el>UseCOSEThermo</el>
-		<el>UseCOSEDiffusionCoefficients</el>
-		<el>UsePerturbedDerivativesOnly</el>
-		<el>UsePerturbed_ddX</el>
-		<el>SuppressWarnings</el>
-		<el>RelativePerturbationTemperature</el>
-		<el>RelativePerturbationPressure</el>
-		<el>PerturbationComposition</el>
-		<el>OutletFlash</el>
-		<el>UseOnlyKValuesAndEnthalpyFromCOSE</el>
-		<el>RestartDataAvailable</el>
-		<el>OmitStageFromPortName</el>
-		<el>WilsonEstimate</el>
-		<el>LogPropertyCalls</el>
-		<el>EnergyPorts</el>
-		<el>Allowed temperature difference</el>
-	  </value>
-	  <value name="GUIArguments" type="str">/kpld</value>
-	  <value name="UseCOSEThermo" type="bool">false</value>
-	  <value name="UseCOSEDiffusionCoefficients" type="bool">false</value>
-	  <value name="UsePerturbedDerivativesOnly" type="bool">false</value>
-	  <value name="UsePerturbed_ddX" type="bool">false</value>
-	  <value name="SuppressWarnings" type="bool">true</value>
-	  <value name="RelativePerturbationTemperature" type="r8">0.001</value>
-	  <value name="RelativePerturbationPressure" type="r8">0.001</value>
-	  <value name="PerturbationComposition" type="r8">0.001</value>
-	  <value name="OutletFlash" type="str">Auto</value>
-	  <value name="UseOnlyKValuesAndEnthalpyFromCOSE" type="bool">false</value>
-	  <value name="RestartDataAvailable" type="bool">false</value>
-	  <value name="OmitStageFromPortName" type="bool">false</value>
-	  <value name="WilsonEstimate" type="bool">false</value>
-	  <value name="LogPropertyCalls" type="bool">false</value>
-	  <value name="EnergyPorts" type="bool">false</value>
-	  <value name="Allowed temperature difference" type="r8">12</value>
-	  <value name="profileParameters" type="empty" />
-      <value name="userParameters" type="str[]">
-        <el>Total Annual Cost</el>
-        <el>Condenser duty</el>
-        <el>Reboiler duty</el>
+      <value name="parameters" type="str[]">
+        <el>GUIArguments</el>
+        <el>UseCOSEThermo</el>
+        <el>UseCOSEDiffusionCoefficients</el>
+        <el>UsePerturbedDerivativesOnly</el>
+        <el>UsePerturbed_ddX</el>
+        <el>SuppressWarnings</el>
+        <el>RelativePerturbationTemperature</el>
+        <el>RelativePerturbationPressure</el>
+        <el>PerturbationComposition</el>
+        <el>OutletFlash</el>
+        <el>UseOnlyKValuesAndEnthalpyFromCOSE</el>
+        <el>RestartDataAvailable</el>
+        <el>OmitStageFromPortName</el>
+        <el>WilsonEstimate</el>
+        <el>LogPropertyCalls</el>
+        <el>EnergyPorts</el>
+        <el>Allowed temperature difference</el>
       </value>
-      <value name="userParameterTags" type="str[]">
-        <el>TACo</el>
-        <el>QCo</el>
-        <el>QRo</el>
+      <value name="GUIArguments" type="str">/kpld</value>
+      <value name="UseCOSEThermo" type="bool">false</value>
+      <value name="UseCOSEDiffusionCoefficients" type="bool">false</value>
+      <value name="UsePerturbedDerivativesOnly" type="bool">false</value>
+      <value name="UsePerturbed_ddX" type="bool">false</value>
+      <value name="SuppressWarnings" type="bool">true</value>
+      <value name="RelativePerturbationTemperature" type="r8">0.001</value>
+      <value name="RelativePerturbationPressure" type="r8">0.001</value>
+      <value name="PerturbationComposition" type="r8">0.001</value>
+      <value name="OutletFlash" type="str">Auto</value>
+      <value name="UseOnlyKValuesAndEnthalpyFromCOSE" type="bool">false</value>
+      <value name="RestartDataAvailable" type="bool">false</value>
+      <value name="OmitStageFromPortName" type="bool">false</value>
+      <value name="WilsonEstimate" type="bool">false</value>
+      <value name="LogPropertyCalls" type="bool">false</value>
+      <value name="EnergyPorts" type="bool">false</value>
+      <value name="Allowed temperature difference" type="r8">12</value>
+      <value name="profileParameters" type="empty" />
+      <value name="userParameters" type="empty" />
+      <value name="reports" type="empty" />
+      <value name="inletPortNames" type="str[]">
+        <el>Feed1_stage10</el>
       </value>
-      <value name="userParameterUnitsOfMeasure" type="str[]">
-        <el />
-        <el>J/s</el>
-        <el>J/s</el>
+      <value name="inletPortCSNames" type="str[]">
+        <el>Feed1</el>
       </value>
-      <value name="userParameterDataType" type="str[]">
-        <el>real</el>
-        <el>real</el>
-        <el>real</el>
+      <value name="inletPortStages" type="i4[]">10</value>
+      <value name="inletPortIDs" type="i4[]">0</value>
+      <value name="outletPortNames" type="str[]">
+        <el>TopProduct</el>
+        <el>BottomProduct</el>
       </value>
-      <value name="userParameterStages" type="i4[]">-1;-1;-1</value>
-      <value name="userParameterCompoundIndices" type="i4[]">-1;-1;-1</value>
-      <value name="userParameterInput" type="bool[]">false;false;false</value>
-	  <value name="reports" type="empty" />
-	  <value name="inletPortNames" type="str[]">
-		<el>Feed1_stage10</el>
-	  </value>
-	  <value name="inletPortCSNames" type="str[]">
-		<el>Feed1</el>
-	  </value>
-	  <value name="inletPortStages" type="i4[]">10</value>
-	  <value name="inletPortIDs" type="i4[]">0</value>
-	  <value name="outletPortNames" type="str[]">
-		<el>TopProduct</el>
-		<el>BottomProduct</el>
-	  </value>
-	  <value name="outletPortCSNames" type="str[]">
-		<el>top</el>
-		<el>bottom</el>
-	  </value>
-	  <value name="outletPortStages" type="i4[]">-1;-1</value>
-	  <value name="outletPortIDs" type="i4[]">-1;-2</value>
-	  <value name="outletPortFlashTypes" type="i4[]">4;4</value>
-	</properties>
-	<id>1</id>
-	<location bottom="42.0" left="48" right="78" top="12.0" /> 
-	<connection feed="true" port="Feed1_stage10" type="material">1</connection>
-	<connection feed="false" port="TopProduct" type="material">211</connection>
-	<connection feed="false" port="BottomProduct" type="material">212</connection>
-  </unitOperation></Flowsheet>
+      <value name="outletPortCSNames" type="str[]">
+        <el>top</el>
+        <el>bottom</el>
+      </value>
+      <value name="outletPortStages" type="i4[]">-1;-1</value>
+      <value name="outletPortIDs" type="i4[]">-1;-2</value>
+      <value name="outletPortFlashTypes" type="i4[]">4;4</value>
+      <value name="energyPortNames" type="str[]">
+        <el>Condenser heat duty</el>
+        <el>Column heat duty</el>
+        <el>Reboiler heat duty</el>
+      </value>
+      <value name="energyPortCSNames" type="str[]">
+        <el>Condenser heat duty</el>
+        <el>Column heat duty</el>
+        <el>Reboiler heat duty</el>
+      </value>
+      <value name="energyPortStages" type="i4[]">2147483646;2147483645;-1</value>
+      <value name="energyPortIDs" type="i4[]">8;0;112194480</value>
+      <value name="energyPortDirection" type="i4[]">1;0;1</value>
+    </properties>
+    <id>1</id>
+    <location bottom="38" left="48" right="62" top="14" />
+    <connection feed="true" port="Feed1_stage10" type="material">1</connection>
+    <connection feed="false" port="TopProduct" type="material">2</connection>
+    <connection feed="false" port="BottomProduct" type="material">3</connection>
+    <labelLocation>7;26</labelLocation>
+  </unitOperation>
+  <font type="default">
+    <height>22</height>
+    <width>0</width>
+    <escapement>0</escapement>
+    <orientation>0</orientation>
+    <weight>400</weight>
+    <italic>false</italic>
+    <underline>false</underline>
+    <strikeOut>false</strikeOut>
+    <lfCharSet>1</lfCharSet>
+    <lfOutPrecision>0</lfOutPrecision>
+    <lfClipPrecision>0</lfClipPrecision>
+    <lfQuality>0</lfQuality>
+    <lfPitchAndFamily>0</lfPitchAndFamily>
+    <name>Arial</name>
+  </font>
+  <object type="Flowsheet" />
+  <view type="flowsheet">
+    <splitHeight>117</splitHeight>
+    <position bottom="560" left="0" right="1269" top="0" />
+    <grid>true</grid>
+    <zoom>8</zoom>
+    <viewPortOffset>-1;-1</viewPortOffset>
+    <streamLabels>true</streamLabels>
+    <unitOperationLabels>true</unitOperationLabels>
+    <logViewTab>0</logViewTab>
+  </view>
+  <view type="stream">
+    <position bottom="662" left="32" right="1411" top="32" />
+    <moleBasis>true</moleBasis>
+    <streams>
+      <el>1</el>
+    </streams>
+  </view>
+  <maximizeViews />
+  <viewStackingOrder>0;1</viewStackingOrder>
+</Flowsheet>
